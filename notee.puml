@@ -6,7 +6,7 @@ class Key {
     ' Absolute position of a note in a scale
 }
 
-class Semitone {
+class Interval {
     ' Relative position of a note in a scale
 }
 

@@ -6,10 +6,12 @@ import (
 )
 
 func main() {
-	// test
+	cMajor := notee.CMajor
+	cMinor := notee.CMinor
 
-	fmt.Println("C Scale")
-	for _, k := range notee.CScale.Keys {
-		fmt.Println(notee.CScale.KeyToTranslation(k))
-	}
+	fmt.Println("CMajor:")
+	fmt.Println(cMajor.ToString())
+
+	fmt.Println("CMinor:")
+	fmt.Println(cMinor.ToString())
 }

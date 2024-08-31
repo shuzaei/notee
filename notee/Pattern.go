@@ -14,7 +14,7 @@ type Score struct {
 type Pattern struct {
 	Starts       []Step
 	Lengths      []Step
-	Translations []Translation
+	Translations []Interval
 	Scale        Scale
 	Length       Step
 }
@@ -22,9 +22,9 @@ type Pattern struct {
 // Score - Scale -> Pattern
 
 func (s Score) Extract(scale Scale) Pattern {
-	trans := make([]Translation, len(s.Notes))
+	trans := make([]Interval, len(s.Notes))
 	for i, n := range s.Notes {
-		trans[i] = scale.KeyToTranslation(n.Key)
+		trans[i] = scale.KeyToInterval(n.Key)
 	}
 
 	return Pattern{
