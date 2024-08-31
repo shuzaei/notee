@@ -36,7 +36,7 @@ index = 0
 lastTime = 0
 for time in range(length):
     i = index
-    dur = 75
+    dur = 120  # 1/16
     while i < len(steps) and steps[i]["Value"] == time:
         track.append(
             Message(
@@ -48,7 +48,7 @@ for time in range(length):
         dur = 0
 
     i = index
-    dur = 75
+    dur = 120
     while i < len(steps) and steps[i]["Value"] == time:
         track.append(
             Message(
