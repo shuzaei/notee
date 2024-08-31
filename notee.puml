@@ -1,29 +1,62 @@
-@startuml notee
+@startuml
+namespace notee {
+    class Accidental << (S,Aquamarine) >> {
+        + Value int
 
-package Semitone
+    }
+    class Interval << (S,Aquamarine) >> {
+        + Value int
+        + Accidental Accidental
 
-class Key {
-    ' Absolute position of a note in a scale
+        + ToString() string
+
+    }
+    class Key << (S,Aquamarine) >> {
+        + Value int
+
+        + ToString() string
+
+    }
+    class Note << (S,Aquamarine) >> {
+        + Key Key
+        + Octave Octave
+
+    }
+    class Octave << (S,Aquamarine) >> {
+        + Value int
+
+    }
+    class Pattern << (S,Aquamarine) >> {
+        + Starts []Step
+        + Lengths []Step
+        + Translations []Interval
+        + Scale Scale
+        + Length Step
+
+    }
+    class Scale << (S,Aquamarine) >> {
+        + Interval []Interval
+        + Keys []Key
+
+        + KeyToInterval(key Key) Interval
+        + IntervalToKey(interval Interval) Key
+        + ToString() string
+
+    }
+    class Score << (S,Aquamarine) >> {
+        + Starts []Step
+        + Lengths []Step
+        + Notes []Note
+        + Length Step
+
+        + Extract(scale Scale) Pattern
+
+    }
+    class Step << (S,Aquamarine) >> {
+        + Value int
+
+    }
 }
 
-class Interval {
-    ' Relative position of a note in a scale
-}
 
-class Note {
-    ' Absolute position of a note
-}
-
-package Scale
-class Scale {
-    ' List of keys
-}
-
-package Pattern
-class Score {
-    ' List of notes, steps and a number of whole steps
-}
-
-class Pattern {
-    ' List of semitones, steps, scale and a number of whole steps
-}
+@enduml
