@@ -12,11 +12,11 @@ type Score struct {
 }
 
 type Pattern struct {
-	Starts       []Step
-	Lengths      []Step
-	Translations []Interval
-	Scale        Scale
-	Length       Step
+	Starts    []Step
+	Lengths   []Step
+	Intervals []Interval
+	Scale     Scale
+	Length    Step
 }
 
 // Score - Scale -> Pattern
@@ -28,11 +28,11 @@ func (s Score) Extract(scale Scale) Pattern {
 	}
 
 	return Pattern{
-		Starts:       s.Starts,
-		Lengths:      s.Lengths,
-		Translations: trans,
-		Scale:        scale,
-		Length:       s.Length,
+		Starts:    s.Starts,
+		Lengths:   s.Lengths,
+		Intervals: trans,
+		Scale:     scale,
+		Length:    s.Length,
 	}
 }
 

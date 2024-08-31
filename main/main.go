@@ -1,17 +1,20 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
-	"notee/notee"
+	"os"
 )
 
 func main() {
-	cMajor := notee.CMajor
-	cMinor := notee.CMinor
+	p := basicChordPattern
+	s := p.Extend(RoyalRoadC)
 
-	fmt.Println("CMajor:")
-	fmt.Println(cMajor.ToString())
+	b, err := json.MarshalIndent(s, "", "    ")
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
 
-	fmt.Println("CMinor:")
-	fmt.Println(cMinor.ToString())
+	os.Stdout.Write(b)
 }

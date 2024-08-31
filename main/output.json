@@ -1,0 +1,347 @@
+{
+    "Starts": [
+        {
+            "Value": 0
+        },
+        {
+            "Value": 0
+        },
+        {
+            "Value": 0
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 2
+        },
+        {
+            "Value": 2
+        },
+        {
+            "Value": 2
+        },
+        {
+            "Value": 3
+        },
+        {
+            "Value": 3
+        },
+        {
+            "Value": 3
+        },
+        {
+            "Value": 4
+        },
+        {
+            "Value": 4
+        },
+        {
+            "Value": 4
+        },
+        {
+            "Value": 5
+        },
+        {
+            "Value": 5
+        },
+        {
+            "Value": 5
+        },
+        {
+            "Value": 6
+        },
+        {
+            "Value": 6
+        },
+        {
+            "Value": 6
+        },
+        {
+            "Value": 7
+        },
+        {
+            "Value": 7
+        },
+        {
+            "Value": 7
+        }
+    ],
+    "Lengths": [
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        },
+        {
+            "Value": 1
+        }
+    ],
+    "Notes": [
+        {
+            "Key": {
+                "Value": 8
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 0
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 3
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 10
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 2
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 5
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 7
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 10
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 2
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 0
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 3
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 7
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 5
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 8
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 0
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 10
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 2
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 5
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 3
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 7
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 10
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 3
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 7
+            },
+            "Octave": {
+                "Value": 0
+            }
+        },
+        {
+            "Key": {
+                "Value": 10
+            },
+            "Octave": {
+                "Value": 0
+            }
+        }
+    ],
+    "Length": {
+        "Value": 8
+    }
+}
