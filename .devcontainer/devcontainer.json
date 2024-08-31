@@ -1,6 +1,8 @@
 {
 	"name": "Notee",
 
+	"image": "mcr.microsoft.com/devcontainers/base:debian",
+
 	"postCreateCommand": "go install github.com/jfeliu007/goplantuml/cmd/goplantuml@latest",
 
 	"features": {
