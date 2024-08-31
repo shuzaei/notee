@@ -1,0 +1,29 @@
+@startuml notee
+
+package Semitone
+
+class Key {
+    ' Absolute position of a note in a scale
+}
+
+class Semitone {
+    ' Relative position of a note in a scale
+}
+
+class Note {
+    ' Absolute position of a note
+}
+
+package Scale
+class Scale {
+    ' List of keys
+}
+
+package Pattern
+class Score {
+    ' List of notes, steps and a number of whole steps
+}
+
+class Pattern {
+    ' List of semitones, steps, scale and a number of whole steps
+}
