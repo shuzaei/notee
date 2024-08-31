@@ -1,11 +1,13 @@
 {
-	"name": "Go",
+	"name": "Notee",
 	
 	// Dockerfile のパスを指定します
 	"build": {
 	  "dockerfile": "Dockerfile",
 	  "context": ".."
 	},
+
+	"postCreateCommand": "go install github.com/jfeliu007/goplantuml/cmd/goplantuml@latest",
 
 	"customizations": {
 	  "vscode": {
@@ -22,5 +24,17 @@
 	  8080
 	],
 
-	"remoteUser": "root"
-  }
+	"remoteUser": "root",
+
+	"features": {
+		"ghcr.io/devcontainers/features/python:1": {
+		  "version": "latest"
+		},
+		"ghcr.io/devcontainers/features/go:1": {
+		  "version": "latest"
+		},
+		"ghcr.io/devcontainers/features/cpp:1": {
+		  "version": "latest"
+		}
+	}
+}
