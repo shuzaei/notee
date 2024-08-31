@@ -6,9 +6,7 @@
 	  "dockerfile": "Dockerfile",
 	  "context": ".."
 	},
-  
-	"postCreateCommand": "git clone https://github.com/your-repository/your-project.git /workspace/your-project",
-  
+
 	"customizations": {
 	  "vscode": {
 		"extensions": [
@@ -19,11 +17,10 @@
 		}
 	  }
 	},
-  
+
 	"forwardPorts": [
 	  8080
 	],
-  
+
 	"remoteUser": "root"
   }
-  
