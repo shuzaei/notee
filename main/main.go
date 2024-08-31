@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	p := basicChordPattern
+	p := piano3R2Pattern
 	s := p.Extend(RoyalRoadC)
 
 	b, err := json.MarshalIndent(s, "", "    ")
