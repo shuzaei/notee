@@ -3,7 +3,7 @@
 
 	"image": "mcr.microsoft.com/devcontainers/base:debian",
 
-	"postCreateCommand": "go install github.com/jfeliu007/goplantuml/cmd/goplantuml@latest",
+	"postCreateCommand": "go install github.com/jfeliu007/goplantuml/cmd/goplantuml@latest && pip3 install -r requirements.txt",
 
 	"features": {
 		"ghcr.io/devcontainers/features/python:1": {
@@ -11,9 +11,8 @@
 		},
 		"ghcr.io/devcontainers/features/go:1": {
 		  "version": "latest"
-		},
-		"ghcr.io/devcontainers/features/cpp:1": {
-		  "version": "latest"
 		}
-	}
+	},
+
+	"remoteUser": "root"
 }
