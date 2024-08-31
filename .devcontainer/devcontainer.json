@@ -1,30 +1,7 @@
 {
 	"name": "Notee",
-	
-	// Dockerfile のパスを指定します
-	"build": {
-	  "dockerfile": "Dockerfile",
-	  "context": ".."
-	},
 
 	"postCreateCommand": "go install github.com/jfeliu007/goplantuml/cmd/goplantuml@latest",
-
-	"customizations": {
-	  "vscode": {
-		"extensions": [
-		  "jebbs.plantuml"
-		],
-		"settings": {
-		  "plantuml.server": "http://localhost:8080"
-		}
-	  }
-	},
-
-	"forwardPorts": [
-	  8080
-	],
-
-	"remoteUser": "root",
 
 	"features": {
 		"ghcr.io/devcontainers/features/python:1": {
