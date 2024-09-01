@@ -3,4 +3,6 @@
 ## Notee
 
 - Create arguments for the functions
-- Generate a pattern with scale changes inside the pattern
+- midi + scales -> json (pattern)
+- json (pattern) + scales -> json (score)
+- json (score) -> midi
