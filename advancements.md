@@ -1,4 +1,4 @@
-# Notee: Advancement
+# Notee: Advancements
 
 ## Notee
 
@@ -6,3 +6,5 @@
 - midi + scales -> json (pattern)
 - json (pattern) + scales -> json (score)
 - json (score) -> midi
+- change octave ranges for score generation
+- create a bunch of patterns
