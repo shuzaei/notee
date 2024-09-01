@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	p := piano3R2Pattern
+	p := piano3R2Pattern2x
 	s := p.Extend(RoyalRoadC)
 
 	b, err := json.MarshalIndent(s, "", "    ")

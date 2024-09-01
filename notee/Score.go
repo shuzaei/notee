@@ -19,6 +19,15 @@ type Pattern struct {
 	Length    Step
 }
 
+type ComplexPattern struct {
+	Starts       []Step
+	Lengths      []Step
+	Intervals    []Interval
+	Scales       []int // index of ScalePalette
+	ScalePalette []Scale
+	Length       Step
+}
+
 // Score - Scale -> Pattern
 
 func (s Score) Extract(scale Scale) Pattern {
@@ -35,5 +44,3 @@ func (s Score) Extract(scale Scale) Pattern {
 		Length:    s.Length,
 	}
 }
-
-// Pattern * []Scale -> Pattern
