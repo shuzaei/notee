@@ -3,7 +3,9 @@ module.exports = {
   content: ['./*.{html,css,js}'],
   theme: {
     extend: {},
+    fontFamily: {
+      'mono': ['"Mojangles"', 'monospace'],
+    },
   },
   plugins: [],
 }
-
