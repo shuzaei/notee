@@ -1,6 +1,6 @@
 package notee
 
-// Pattern * []Scale -> Pattern
+// Pattern * []Scale -> Score
 func (p Pattern) Extend(scales []Scale) Score {
 	extended := Score{
 		Starts:  []Step{},
@@ -27,7 +27,7 @@ func (p Pattern) Extend(scales []Scale) Score {
 	return extended
 }
 
-// ComplexPattern (Contains n scales) * []Scale (Contains k * n scales) -> ComplexPattern
+// ComplexPattern (Contains n scales) * []Scale (Contains k * n scales) -> Score
 func (p ComplexPattern) Extend(scales []Scale) Score {
 	extended := Score{
 		Starts:  []Step{},
